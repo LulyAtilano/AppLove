@@ -19,11 +19,11 @@ body {
   font-size: 16px;
   line-height: 1.71429;
 }
-/*
+
 img {
   vertical-align: middle;
 }
-*/
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -170,9 +170,79 @@ body #services .container {
 
 body #services .container img {
   height: 60%;
+  padding-bottom: 1.5em;
   width: 60%;
 }
 
 body #services .container h6 {
   font-size: .7em;
+}
+
+/* ------ WORK ------*/
+
+body #work {
+  padding-bottom: 7em;
+}
+
+body #work div {
+  box-sizing: border-box;
+  padding: 1em 0 .5em 0;
+  width: 100%;
+}
+
+body #work h2 {
+  font-size: 2.2em;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+body #work h4 {
+  padding-bottom: 2em;
+}
+
+body #work div img {
+  width: 70%;
+}
+
+/* ----- COLUMNAS DE LOS PRODUCTOS EN WORK ------- */
+body #work #products {
+  box-sizing: border-box;
+  display: inline;
+  width: 100%;
+}
+
+body #work #products .container {
+  align-content: center;
+  display: inline-flex;
+}
+
+body #work #products .container article {
+  display: block;
+  width: 33%;
+}
+
+body #work #products .container article a {
+  display: block;
+  font-size: 1em;
+  font-weight: bolder;
+  padding-top: 1.5em;
+  width: 100%;
+}
+
+body #work #products .container article img {
+  display: block;
+  height: 80%;
+  padding: 2em 1.7em 0 1.7em ;
+  width: 80%;
+}
+
+/* ------ FOOTER ------ */
+footer {
+  box-sizing: border-box;
+  background-color: #373B47;
+  color: white;
+  padding: .5em;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
