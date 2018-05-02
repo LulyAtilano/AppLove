@@ -79,22 +79,34 @@ header {
   background-color: white;
   box-sizing: content-box;
   color: rgb(31, 30, 30);
-  display: inline;
-  padding: 1.2em 0 2.5em 10em;
   position: fixed;
   top:0;
   width: 100%
 }
 
+header div {
+  display: inline-flex;
+  height: 78px;
+  position: relative;
+  width: 100%;
+}
+
 header > div > a {
+  align-content: center;
   font-size: 1.1em;
   font-weight: 900;
-  padding: 0 2em 0 1.6em; 
+  padding: 1.2em 2em .5em 1.6em;
+  position: relative; 
+}
+
+header div img {
+  height: 75px;
+  padding-left: 686px;
+  width: 75px;
 }
 
 /* ------ MAIN ----- */
 body > section {
-  border: 1px solid gold;
   text-align: center;
 } 
 
@@ -104,7 +116,7 @@ body > #main {
   color: white;
   display: absolute;
   height: 519px;
-  margin-top: 87px;
+  margin-top: 79px;
   text-align: center;
   width: 100%;
 } 
@@ -131,4 +143,36 @@ body > #main > div > a {
   border: 1px solid rgb(70, 194, 70);
   color: white;
   padding: 1em 1.5em;
+}
+
+/* ------ SERVICES ------*/
+
+body #services {
+  border: 1px solid #E95853;
+  background-color: #E95853;
+  color: white;
+  width: 100%;
+}
+
+body #services h2 {
+  font-size: 2.2em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding-top: 1.5em;
+}
+
+/* Apartado de las columnas en Services */
+body #services .container {
+  display: inline-block;
+  padding: 4em 0 4em 0;
+  width: 25%;
+}
+
+body #services .container img {
+  height: 60%;
+  width: 60%;
+}
+
+body #services .container h6 {
+  font-size: .7em;
 }
